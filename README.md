@@ -48,7 +48,7 @@ Sequential([
     Dense(4, activation='softmax')
 ])
 ```
-
+---
 ## Training Configuration
 - **Framework:** TensorFlow / Keras
 - **Optimizer:** Adam
