@@ -1,10 +1,10 @@
-# 🧠 Waste Classifier Model
+# Waste Classifier Model
 
 A simple deep learning model that classifies images of waste into one of four categories — **General Waste**, **Hazardous**, **Organic**, or **Recyclable** — helping automate waste segregation and recycling processes.
 
 ---
 
-## 🧩 Overview
+## Overview
 This project implements a **Convolutional Neural Network (CNN)** using **TensorFlow and Keras**.
 The model learns to identify waste categories from images using data augmentation and normalization techniques.
 
@@ -12,7 +12,7 @@ It can be integrated into applications for **smart waste bins**, **waste managem
 
 ---
 
-## 📂 Dataset
+## Dataset
 The dataset(not made publicly available) consists of images collected manually, organized into four classes:
 
 ```
@@ -29,7 +29,7 @@ If you wish to use this notebook with your own dataset, follow the same folder s
 
 ---
 
-## 🧱 Model Architecture
+## Model Architecture
 
 ```python
 Sequential([
@@ -49,9 +49,7 @@ Sequential([
 ])
 ```
 
----
-
-## ⚙️ Training Configuration
+## Training Configuration
 - **Framework:** TensorFlow / Keras
 - **Optimizer:** Adam
 - **Loss:** Categorical Crossentropy
@@ -59,12 +57,6 @@ Sequential([
 - **Batch size:** 64
 - **Image size:** 224 × 224
 - **Callbacks:** EarlyStopping, ReduceLROnPlateau, ModelCheckpoint
-
----
-
-## 📊 Results
-The model successfully classifies waste images into the correct categories with high accuracy on the validation and test sets.
-(Exact training metrics and plots are shown in the notebook.)
 
 ---
 
@@ -91,5 +83,5 @@ The model successfully classifies waste images into the correct categories with 
 
 ---
 
-## 📜 License
+## License
 This project is licensed under the [MIT License](LICENSE).
