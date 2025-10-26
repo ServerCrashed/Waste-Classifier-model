@@ -13,7 +13,7 @@ It can be integrated into applications for **smart waste bins**, **waste managem
 ---
 
 ## 📂 Dataset
-The dataset consists of images collected manually, organized into four classes:
+The dataset(not made publicly available) consists of images collected manually, organized into four classes:
 
 ```
 Waste_Segregation_DatasetV2/
